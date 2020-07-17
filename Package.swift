@@ -14,7 +14,7 @@ let package = Package(
         .package(url: "https://github.com/kylef/PathKit.git", from: "1.0.0"),
         .package(url: "https://github.com/jpsim/Yams.git", from: "2.0.0"),
         .package(url: "https://github.com/yonaskolb/JSONUtilities.git", from: "4.2.0"),
-        .package(url: "https://github.com/kylef/Spectre.git", from: "0.9.0"),
+        .package(url: "https://github.com/amine2233/Spectre", .branch("fix/build-on-macosx-11")),
         .package(url: "https://github.com/onevcat/Rainbow.git", from: "3.0.0"),
         .package(url: "https://github.com/tuist/XcodeProj.git", .exact("7.13.0")),
         .package(url: "https://github.com/jakeheis/SwiftCLI.git", from: "6.0.0"),
